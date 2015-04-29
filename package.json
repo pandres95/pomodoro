@@ -1,0 +1,39 @@
+{
+    "name": "dev-focuser",
+    "version": "0.0.1",
+    "description": "Utility to help developers get focused by customizing work-rest time intervals alongside with desktop notifications.",
+    "main": "lib/index.js",
+    "scripts": {
+        "start": "bin/index.js",
+        "test": "mocha --recursive test"
+    },
+    "bin": {
+        "dev-focuser": "bin/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "http://www.github.com/pandres95/dev_focuser"
+    },
+    "keywords": [
+        "dev",
+        "focus",
+        "time",
+        "workspace"
+    ],
+    "author": {
+        "name": "Pablo Andrés Dorado Suárez",
+        "mail": "pandres95@boolinc.co",
+        "url": "http://pandres95.me"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "node-notifier": "^4.2.1",
+        "optimist": "^0.6.1",
+        "underscore": "^1.8.3",
+        "yargs": "^3.8.0"
+    },
+    "devDependencies": {
+        "mocha": "^2.2.4",
+        "expect.js": "^0.3.1"
+    }
+}
