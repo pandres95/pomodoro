@@ -1,6 +1,6 @@
 {
     "name": "dev-focuser",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Utility to help developers get focused by customizing work-rest time intervals alongside with desktop notifications.",
     "main": "lib/index.js",
     "scripts": {
