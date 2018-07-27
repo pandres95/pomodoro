@@ -1,18 +1,20 @@
 {
-  "name": "dev-focuser",
-  "version": "0.0.3",
-  "description": "Utility to help developers get focused by customizing work-rest time intervals alongside with desktop notifications.",
+  "name": "@pandres95/pomodoro",
+  "version": "1.0.0",
   "main": "lib/index.js",
   "scripts": {
-    "start": "bin/index.js",
-    "test": "mocha --recursive test"
+    "start": "node bin/worker.js",
+    "debug": "node --inspect-brk bin/worker.js",
+    "lint": "eslint **/*.js",
+    "pretest": "npm run lint",
+    "test": "mocha --recursive --exit test"
   },
   "bin": {
-    "dev-focuser": "bin/index.js"
+    "pomodoro": "bin/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "http://www.github.com/pandres95/dev_focuser"
+    "url": "http://www.github.com/pandres95/pomodoro"
   },
   "keywords": [
     "dev",
@@ -22,19 +24,29 @@
   ],
   "author": {
     "name": "Pablo Andrés Dorado Suárez",
-    "mail": "pandres95@boolinc.co",
-    "url": "http://pandres95.me"
+    "mail": "im@pandres95.me",
+    "url": "https://pandres95.me"
   },
   "license": "MIT",
   "dependencies": {
+    "@sindresorhus/do-not-disturb": "^0.2.0",
+    "chalk": "^2.4.1",
+    "commander": "^2.16.0",
     "daemon": "^1.1.0",
-    "node-notifier": "^4.2.1",
-    "optimist": "^0.6.1",
-    "underscore": "^1.8.3",
-    "yargs": "^3.8.0"
+    "es-promisify": "^1.1.2",
+    "node-cron": "^1.2.1",
+    "node-notifier": "^5.2.1",
+    "optimist": "^0.6.1"
   },
   "devDependencies": {
-    "mocha": "^2.2.4",
-    "expect.js": "^0.3.1"
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "eslint": "^5.2.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "mocha": "^5.2.0"
   }
 }

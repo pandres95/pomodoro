@@ -1,4 +1,6 @@
 #!/usr/bin/env node
 
-require('daemon')();
+'use strict';
+
+// require('daemon')();
 require('./worker.js');
