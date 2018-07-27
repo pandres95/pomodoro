@@ -2,5 +2,5 @@
 
 'use strict';
 
-// require('daemon')();
+require('daemon')({ cwd: __dirname });
 require('./worker.js');
