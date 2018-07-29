@@ -1,6 +1,6 @@
 {
   "name": "@pandres95/pomodoro",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "main": "lib/index.js",
   "scripts": {
     "start": "NODE_ENV=develop node bin/pomodoro-start-worker.js",
