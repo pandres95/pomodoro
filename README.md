@@ -39,7 +39,7 @@ You'll find something like this.
     help [cmd]     display help for [cmd]
 ```
 
-## Start
+### Start
 
 Starts the whole process. There are several options to configure your work mode.
 
@@ -55,7 +55,7 @@ Starts the whole process. There are several options to configure your work mode.
     -h, --help                        output usage information
 ```
 
-## Stop
+### Stop
 
 Ends an open pomodoro process. It takes no arguments.
 
@@ -66,3 +66,7 @@ Ends an open pomodoro process. It takes no arguments.
 
     -h, --help  output usage information
 ```
+
+## LICENSE
+
+[MIT License](LICENSE)
