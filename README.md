@@ -67,6 +67,6 @@ Ends an open pomodoro process. It takes no arguments.
     -h, --help  output usage information
 ```
 
-## LICENSE
+## License
 
 [MIT License](LICENSE)
