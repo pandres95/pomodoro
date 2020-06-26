@@ -1,6 +1,6 @@
 {
   "name": "@pandres95/pomodoro",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "main": "lib/index.js",
   "scripts": {
     "start": "NODE_ENV=develop node bin/pomodoro-start-worker.js",
@@ -30,23 +30,23 @@
   "license": "MIT",
   "dependencies": {
     "@sindresorhus/do-not-disturb": "^0.2.0",
-    "chalk": "^2.4.1",
-    "commander": "^2.16.0",
+    "chalk": "^2.4.2",
+    "commander": "^2.20.3",
     "daemon": "^1.1.0",
     "es-promisify": "^1.1.2",
     "node-cron": "^1.2.1",
-    "node-notifier": "^5.2.1",
+    "node-notifier": "^5.4.3",
     "optimist": "^0.6.1"
   },
   "devDependencies": {
-    "chai": "^4.1.2",
+    "chai": "^4.2.0",
     "chai-as-promised": "^7.1.1",
-    "eslint": "^5.2.0",
+    "eslint": "^5.16.0",
     "eslint-config-standard": "^11.0.0",
-    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-import": "^2.21.2",
     "eslint-plugin-node": "^7.0.1",
     "eslint-plugin-promise": "^3.8.0",
     "eslint-plugin-standard": "^3.1.0",
-    "mocha": "^5.2.0"
+    "mocha": "^8.0.1"
   }
 }
